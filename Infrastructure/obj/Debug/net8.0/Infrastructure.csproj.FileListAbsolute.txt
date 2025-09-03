@@ -1,0 +1,17 @@
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\web\Store\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\web\Store\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\web\Store\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+D:\web\Store\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
