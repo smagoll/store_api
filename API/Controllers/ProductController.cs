@@ -1,0 +1,40 @@
+﻿using Application.DTOs;
+using Application.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+
+namespace API.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class ProductController : ControllerBase
+{
+    private readonly IProductService _service;
+    
+    public ProductController(IProductService service)
+    {
+        _service = service;
+    }
+    
+    [HttpPost]
+    public async Task<ActionResult<ProductDto>> Create(CreateProductDto dto)
+    {
+        var created = await _service.Create(dto);
+        return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
+    }
+    
+    [HttpGet("{id}")]
+    public async Task<ActionResult<ProductDto>> GetById(int id)
+    {
+        var product = await _service.GetById(id);
+        if (product == null)
+            return NotFound();
+        return Ok(product);
+    }
+    
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll()
+    {
+        var products = await _service.GetAll();
+        return Ok(products);
+    }
+}

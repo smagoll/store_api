@@ -2,6 +2,7 @@
 
 namespace Infrastructure.Interfaces;
 
-public interface ICategoryRepository : IRepository<Category>
+public interface IProductRepository : IRepository<Product>
 {
+    
 }

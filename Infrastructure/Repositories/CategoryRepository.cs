@@ -1,6 +1,7 @@
 ﻿using Domain.Entities;
 using Infrastructure.Data;
 using Infrastructure.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
@@ -23,5 +24,10 @@ public class CategoryRepository : ICategoryRepository
     public async Task<Category> GetByIdAsync(int id)
     {
         return await _context.Categories.FindAsync(id);
+    }
+
+    public async Task<IEnumerable<Category>> GetAll()
+    {
+        return await _context.Categories.ToListAsync();
     }
 }
