@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web\\Store\\Common\\Common.csproj": {}
+    "D:\\Work\\Unity Projects\\store_api\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\web\\Store\\Common\\Common.csproj": {
+    "D:\\Work\\Unity Projects\\store_api\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web\\Store\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Work\\Unity Projects\\store_api\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\web\\Store\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\web\\Store\\Common\\obj\\",
+        "projectPath": "D:\\Work\\Unity Projects\\store_api\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\Unity Projects\\store_api\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

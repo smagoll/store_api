@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JAEUDdaqhLlVGF43DRIaV8+Sd5izjndDol/VC6J9XC8aXRKY61zTAXix/cBdguyeKkPXf5Quqqz/1hHQWX373g==",
+  "dgSpecHash": "PlE1P5El77s=",
   "success": true,
-  "projectFilePath": "D:\\web\\Store\\Common\\Common.csproj",
+  "projectFilePath": "D:\\Work\\Unity Projects\\store_api\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1083,19 +1083,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\danii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\web\\Store\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Work\\Unity Projects\\store_api\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\web\\Store\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\web\\Store\\Application\\obj\\",
+      "projectPath": "D:\\Work\\Unity Projects\\store_api\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Unity Projects\\store_api\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1107,11 +1107,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\web\\Store\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\web\\Store\\Domain\\Domain.csproj"
+            "D:\\Work\\Unity Projects\\store_api\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Work\\Unity Projects\\store_api\\Domain\\Domain.csproj"
             },
-            "D:\\web\\Store\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\web\\Store\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Work\\Unity Projects\\store_api\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Work\\Unity Projects\\store_api\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1120,6 +1120,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1155,7 +1160,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

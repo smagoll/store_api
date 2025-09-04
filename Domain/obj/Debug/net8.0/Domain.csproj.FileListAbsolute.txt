@@ -9,3 +9,15 @@ D:\web\Store\Domain\obj\Debug\net8.0\Domain.dll
 D:\web\Store\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\web\Store\Domain\obj\Debug\net8.0\Domain.pdb
 D:\web\Store\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Work\Unity Projects\store_api\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Work\Unity Projects\store_api\Domain\bin\Debug\net8.0\Domain.dll
+D:\Work\Unity Projects\store_api\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.dll
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Work\Unity Projects\store_api\Domain\obj\Debug\net8.0\ref\Domain.dll
