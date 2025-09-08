@@ -24,14 +24,26 @@ public class ProductService : IProductService
         return _mapper.Map<ProductDto>(created);
     }
 
-    public async Task<ProductDto> Delete(DeleteProductDto dto)
+    public async Task Delete(DeleteProductDto dto)
     {
-        throw new NotImplementedException();
+        var product = await _repository.GetByIdAsync(dto.Id);
+        await _repository.DeleteAsync(product);
     }
 
     public async Task<ProductDto> Update(UpdateProductDto dto)
     {
-        throw new NotImplementedException();
+        var product = await _repository.GetByIdAsync(dto.Id);
+
+        if (product == null)
+            throw new Exception($"Product with Id {dto.Id} not found");
+
+        product.Name = dto.Name;
+        product.Price = dto.Price;
+        product.CategoryId = dto.CategoryId;
+
+        await _repository.UpdateAsync(product);
+
+        return _mapper.Map<ProductDto>(product);
     }
 
     public async Task<ProductDto?> GetById(int id)
@@ -42,7 +54,7 @@ public class ProductService : IProductService
 
     public async Task<IEnumerable<ProductDto>> GetAll()
     {
-        var products = await _repository.GetAll();
+        var products = await _repository.GetAllAsync();
         return _mapper.Map<IEnumerable<ProductDto>>(products);
     }
 }

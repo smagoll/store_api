@@ -5,29 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
-public class CategoryRepository : ICategoryRepository
+public class CategoryRepository : Repository<Category>, ICategoryRepository
 {
-    private readonly AppDbContext _context;
-
-    public CategoryRepository(AppDbContext context)
+    public CategoryRepository(DbContext context) : base(context)
     {
-        _context = context;
-    }
-
-    public async Task<Category> AddAsync(Category category)
-    {
-        _context.Categories.Add(category);
-        await _context.SaveChangesAsync();
-        return category;
-    }
-
-    public async Task<Category> GetByIdAsync(int id)
-    {
-        return await _context.Categories.FindAsync(id);
-    }
-
-    public async Task<IEnumerable<Category>> GetAll()
-    {
-        return await _context.Categories.ToListAsync();
     }
 }

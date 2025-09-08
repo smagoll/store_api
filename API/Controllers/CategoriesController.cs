@@ -26,7 +26,6 @@ public class CategoriesController : ControllerBase
     public async Task<ActionResult<CategoryDto>> GetById(int id)
     {
         var category = await _service.GetByIdAsync(id);
-        if (category == null) return NotFound();
         return Ok(category);
     }
 }

@@ -5,32 +5,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
-public class ProductRepository : IProductRepository
+public class ProductRepository : Repository<Product>, IProductRepository
 {
-    private readonly AppDbContext _context;
-    
-    public ProductRepository(AppDbContext context)
+    public ProductRepository(DbContext context) : base(context)
     {
-        _context = context;
-    }
-    
-    public async Task<Product> AddAsync(Product product)
-    {
-        _context.Products.Add(product);
-        await _context.SaveChangesAsync();
-        return product;
     }
 
-    public async Task<Product?> GetByIdAsync(int id)
+    public virtual async Task<Product?> GetByIdAsync(int id)
     {
-        return await _context.Products
+        return await _dbSet
             .Include(p => p.Category)
             .FirstOrDefaultAsync(p => p.Id == id);
     }
 
-    public async Task<IEnumerable<Product>> GetAll()
+    public virtual async Task<IEnumerable<Product>> GetAllAsync()
     {
-        return await _context.Products
+        return await _dbSet
             .Include(p => p.Category)
             .ToListAsync();
     }
