@@ -7,7 +7,7 @@ namespace Infrastructure.Repositories;
 
 public class ProductRepository : Repository<Product>, IProductRepository
 {
-    public ProductRepository(DbContext context) : base(context)
+    public ProductRepository(AppDbContext context) : base(context)
     {
     }
 

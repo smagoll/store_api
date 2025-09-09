@@ -7,7 +7,7 @@ namespace Infrastructure.Repositories;
 
 public class CategoryRepository : Repository<Category>, ICategoryRepository
 {
-    public CategoryRepository(DbContext context) : base(context)
+    public CategoryRepository(AppDbContext context) : base(context)
     {
     }
 }

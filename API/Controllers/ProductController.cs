@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/products")]
 public class ProductController : ControllerBase
 {
     private readonly IProductService _service;
@@ -36,5 +36,12 @@ public class ProductController : ControllerBase
     {
         var products = await _service.GetAll();
         return Ok(products);
+    }
+    
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(DeleteProductDto dto)
+    {
+        await _service.Delete(dto);
+        return NoContent();
     }
 }

@@ -33,10 +33,7 @@ public class ProductService : IProductService
     public async Task<ProductDto> Update(UpdateProductDto dto)
     {
         var product = await _repository.GetByIdAsync(dto.Id);
-
-        if (product == null)
-            throw new Exception($"Product with Id {dto.Id} not found");
-
+        
         product.Name = dto.Name;
         product.Price = dto.Price;
         product.CategoryId = dto.CategoryId;

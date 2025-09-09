@@ -1,4 +1,5 @@
-﻿using Infrastructure.Interfaces;
+﻿using Infrastructure.Data;
+using Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
@@ -8,7 +9,7 @@ public class Repository<T> : IRepository<T> where T : class
     protected readonly DbContext _context;
     protected readonly DbSet<T> _dbSet;
     
-    public Repository(DbContext context)
+    public Repository(AppDbContext context)
     {
         _context = context;
         _dbSet = _context.Set<T>();
@@ -29,6 +30,11 @@ public class Repository<T> : IRepository<T> where T : class
             throw new Exception($"Entity {nameof(T)} with Id {id} not found");
         
         return entity;
+    }
+
+    public async Task<T?> GetByIdOrNullAsync(int id)
+    {
+        return await _dbSet.FindAsync(id);
     }
 
     public virtual async Task<IEnumerable<T>> GetAllAsync()
