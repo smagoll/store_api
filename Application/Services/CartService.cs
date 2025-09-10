@@ -78,9 +78,4 @@ public class CartService : ICartService
         await _repository.UpdateAsync(cart);
         return _mapper.Map<CartDto>(cart);
     }
-
-    public async Task<OrderDto> CheckoutAsync(int userId)
-    {
-        throw new NotImplementedException();
-    }
 }
