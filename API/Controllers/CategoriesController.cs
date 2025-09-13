@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace API.Controllers;
 
@@ -21,6 +22,9 @@ public class CategoriesController : ControllerBase
     public async Task<ActionResult<CategoryDto>> Create(CategoryCreateDto dto)
     {
         var created = await _service.CreateAsync(dto);
+        
+        Log.Information($"Category created by {User.Identity?.Name}: Id={created.Id}, Name={created.Title}");
+        
         return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
     }
 
@@ -28,6 +32,15 @@ public class CategoriesController : ControllerBase
     public async Task<ActionResult<CategoryDto>> GetById(int id)
     {
         var category = await _service.GetByIdAsync(id);
+        
+        if (category == null)
+        {
+            Log.Warning($"Category with Id={id} not found");
+            return NotFound();
+        }
+        
+        Log.Information($"Category retrieved by {User.Identity?.Name}: Id={category.Id}, Name={category.Title}");
+        
         return Ok(category);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Application.DTOs;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace API.Controllers;
 
@@ -19,6 +20,9 @@ public class OrderController : ControllerBase
     public async Task<ActionResult<OrderDto>> Checkout(int userId)
     {
         var order = await _service.CheckoutAsync(userId);
+        
+        Log.Information($"Order Id({order.Id}) checked for {userId}");
+        
         return Ok(order);
     }
 }
