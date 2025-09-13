@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Domain.Enums;
 
 namespace API.Extensions;
 
@@ -14,7 +15,14 @@ public static class ApiServiceExtensions
 
         var jwtSettings = configuration.GetSection("JwtSettings").Get<JwtSettings>();
 
-        services.AddAuthorization();
+        services.AddAuthorization(options =>
+            {
+                options.AddPolicy("RequireAdmin", 
+                    policy => policy.RequireRole(nameof(UserRole.Admin)));
+                options.AddPolicy("RequireUser", 
+                    policy => policy.RequireRole(nameof(UserRole.Admin)));
+            }
+            );
         services.AddAuthentication(options =>
         {
             options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

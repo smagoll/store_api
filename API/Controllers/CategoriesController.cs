@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -15,6 +16,7 @@ public class CategoriesController : ControllerBase
         _service = service;
     }
 
+    [Authorize(Policy = "RequireAdmin")]
     [HttpPost]
     public async Task<ActionResult<CategoryDto>> Create(CategoryCreateDto dto)
     {

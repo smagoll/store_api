@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -15,6 +16,7 @@ public class ProductController : ControllerBase
         _service = service;
     }
     
+    [Authorize(Policy = "RequireAdmin")]
     [HttpPost]
     public async Task<ActionResult<ProductDto>> Create(CreateProductDto dto)
     {
@@ -38,6 +40,7 @@ public class ProductController : ControllerBase
         return Ok(products);
     }
     
+    [Authorize(Policy = "RequireAdmin")]
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(DeleteProductDto dto)
     {
