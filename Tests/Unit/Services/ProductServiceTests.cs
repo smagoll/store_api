@@ -13,7 +13,7 @@ public class ProductServiceTests
 {
     private readonly Mock<IProductRepository> _repositoryMock;
     private readonly Mock<IMapper> _mapperMock;
-    private readonly ProductService _service;
+    private readonly IProductService _service;
 
     public ProductServiceTests()
     {
