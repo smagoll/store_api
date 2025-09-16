@@ -61,7 +61,7 @@ public class OrderServiceTests
             .ReturnsAsync(cart);
 
         _mapperMock.Setup(m => m.Map<OrderDto>(It.IsAny<Order>()))
-            .Returns(new OrderDto { UserId = 1, TotalPrice = 200 });
+            .Returns(new OrderDto(1, 1, DateTime.Now, string.Empty, 200, new List<OrderItemDto>()));
 
         // Act
         var result = await _service.CheckoutAsync(1);

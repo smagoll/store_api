@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationLayer();
 builder.Services.AddInfrastructureLayer(builder.Configuration);
 builder.Services.AddApiLayer(builder.Configuration);
+builder.Services.AddFluentValidationServices();
 builder.Host.AddLog();
 
 var app = builder.Build();

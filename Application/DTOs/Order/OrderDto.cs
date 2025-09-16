@@ -1,20 +1,23 @@
 ﻿namespace Application.DTOs;
 
-public class OrderDto
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public string Status { get; set; } = string.Empty;
-    public decimal TotalPrice { get; set; }
+public record OrderItemDto(
+    int ProductId,
+    string ProductName,
+    decimal Price,
+    int Quantity
+);
 
-    public List<OrderItemDto> Items { get; set; } = new();
-}
-
-public class OrderItemDto
+public record OrderDto(
+    int Id,
+    int UserId,
+    DateTime CreatedAt,
+    string Status,
+    decimal TotalPrice,
+    List<OrderItemDto> Items
+)
 {
-    public int ProductId { get; set; }
-    public string ProductName { get; set; } = string.Empty;
-    public decimal Price { get; set; }
-    public int Quantity { get; set; }
+    public OrderDto(int Id, int UserId, DateTime CreatedAt, string Status, decimal TotalPrice)
+        : this(Id, UserId, CreatedAt, Status, TotalPrice, new List<OrderItemDto>())
+    {
+    }
 }
