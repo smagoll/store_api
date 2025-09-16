@@ -1,7 +1,5 @@
 ﻿using Application.DTOs.Cart;
-using Application.Services;
 using AutoMapper;
-using Domain.Entities;
 using Infrastructure.Interfaces;
 using Moq;
 using Xunit;
