@@ -1,0 +1,561 @@
+2026-02-17 11:01:09.131 +05:00 [INF] Запуск приложения...
+2026-02-17 11:01:09.169 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 11:01:09.248 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 11:01:09.251 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 11:01:09.251 +05:00 [INF] Hosting environment: Development
+2026-02-17 11:01:09.252 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 11:01:10.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger - null null
+2026-02-17 11:01:10.205 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger - 301 0 null 41.6989ms
+2026-02-17 11:01:10.214 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.html - null null
+2026-02-17 11:01:10.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.html - 200 null text/html;charset=utf-8 155.8972ms
+2026-02-17 11:01:10.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui-bundle.js - null null
+2026-02-17 11:01:10.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui.css - null null
+2026-02-17 11:01:10.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui-standalone-preset.js - null null
+2026-02-17 11:01:10.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.css - null null
+2026-02-17 11:01:10.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.js - null null
+2026-02-17 11:01:10.400 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.js - 200 null application/javascript;charset=utf-8 16.4754ms
+2026-02-17 11:01:10.401 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-02-17 11:01:10.405 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.css - 200 202 text/css 21.7756ms
+2026-02-17 11:01:10.407 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-02-17 11:01:10.407 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-02-17 11:01:10.415 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 31.5591ms
+2026-02-17 11:01:10.415 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui.css - 200 154948 text/css 31.6249ms
+2026-02-17 11:01:10.418 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-02-17 11:01:10.423 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 39.4083ms
+2026-02-17 11:01:10.761 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - null null
+2026-02-17 11:01:10.874 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.3181ms
+2026-02-17 11:02:15.273 +05:00 [INF] Application is shutting down...
+2026-02-17 11:05:11.406 +05:00 [INF] Запуск приложения...
+2026-02-17 11:05:11.482 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 11:05:11.545 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 11:05:11.549 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 11:05:11.550 +05:00 [INF] Hosting environment: Development
+2026-02-17 11:05:11.550 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 11:05:12.119 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.html - null null
+2026-02-17 11:05:12.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.html - 200 null text/html;charset=utf-8 138.8604ms
+2026-02-17 11:05:12.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.js - null null
+2026-02-17 11:05:12.277 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.js - 200 null application/javascript;charset=utf-8 6.1674ms
+2026-02-17 11:05:12.670 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - null null
+2026-02-17 11:05:12.801 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.0872ms
+2026-02-17 11:07:09.818 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/ - null null
+2026-02-17 11:07:09.827 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-02-17 11:07:10.747 +05:00 [INF] HTTP GET / responded 404 in 922.9581 ms
+2026-02-17 11:07:10.749 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/ - 404 0 null 930.5875ms
+2026-02-17 11:07:10.752 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5121/, Response status code: 404
+2026-02-17 11:11:00.825 +05:00 [INF] Application is shutting down...
+2026-02-17 11:11:05.795 +05:00 [INF] Запуск приложения...
+2026-02-17 11:11:05.831 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 11:11:05.874 +05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-02-17 11:11:05.889 +05:00 [INF] Now listening on: https://localhost:7022
+2026-02-17 11:11:05.890 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 11:11:05.892 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 11:11:05.893 +05:00 [INF] Hosting environment: Development
+2026-02-17 11:11:05.893 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 11:11:06.199 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger - null null
+2026-02-17 11:11:06.238 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger - 301 0 null 40.3809ms
+2026-02-17 11:11:06.243 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - null null
+2026-02-17 11:11:06.364 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - 200 null text/html;charset=utf-8 120.5248ms
+2026-02-17 11:11:06.378 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - null null
+2026-02-17 11:11:06.378 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.css - null null
+2026-02-17 11:11:06.378 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - null null
+2026-02-17 11:11:06.379 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - null null
+2026-02-17 11:11:06.379 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.js - null null
+2026-02-17 11:11:06.389 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.js - 200 null application/javascript;charset=utf-8 10.4691ms
+2026-02-17 11:11:06.390 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2026-02-17 11:11:06.395 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.css - 200 202 text/css 16.6353ms
+2026-02-17 11:11:06.403 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-02-17 11:11:06.403 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-02-17 11:11:06.406 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-02-17 11:11:06.406 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 27.8068ms
+2026-02-17 11:11:06.406 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - 200 154948 text/css 27.9902ms
+2026-02-17 11:11:06.409 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 30.9002ms
+2026-02-17 11:11:06.761 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - null null
+2026-02-17 11:11:06.906 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.2247ms
+2026-02-17 11:11:30.907 +05:00 [INF] Application is shutting down...
+2026-02-17 11:17:48.326 +05:00 [INF] Запуск приложения...
+2026-02-17 11:17:48.363 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 11:17:48.406 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 11:17:48.408 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 11:17:48.409 +05:00 [INF] Hosting environment: Development
+2026-02-17 11:17:48.409 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 11:17:48.648 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.html - null null
+2026-02-17 11:17:48.740 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.html - 200 null text/html;charset=utf-8 91.9026ms
+2026-02-17 11:17:48.755 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.js - null null
+2026-02-17 11:17:48.758 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.js - 200 null application/javascript;charset=utf-8 3.7514ms
+2026-02-17 11:17:49.107 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - null null
+2026-02-17 11:17:49.176 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.5667ms
+2026-02-17 11:21:37.881 +05:00 [INF] Application is shutting down...
+2026-02-17 11:21:41.860 +05:00 [INF] Запуск приложения...
+2026-02-17 11:21:41.899 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 11:21:41.941 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 11:21:41.943 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 11:21:41.944 +05:00 [INF] Hosting environment: Development
+2026-02-17 11:21:41.944 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 11:21:42.154 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.html - null null
+2026-02-17 11:21:42.246 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.html - 200 null text/html;charset=utf-8 93.4167ms
+2026-02-17 11:21:42.261 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.js - null null
+2026-02-17 11:21:42.264 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.js - 200 null application/javascript;charset=utf-8 3.3851ms
+2026-02-17 11:21:42.610 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - null null
+2026-02-17 11:21:42.679 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.5857ms
+2026-02-17 11:22:06.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 11:22:06.909 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-02-17 11:22:06.910 +05:00 [INF] CORS policy execution successful.
+2026-02-17 11:22:06.931 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:22:06.945 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 11:22:07.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 11:22:07.581 +05:00 [INF] CORS policy execution successful.
+2026-02-17 11:22:07.583 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:22:07.584 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 11:22:08.020 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 11:22:08.020 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 11:22:08.543 +05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 11:22:08.543 +05:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 11:22:08.690 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 662.1084ms.
+2026-02-17 11:22:08.690 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 664.346ms.
+2026-02-17 11:22:08.701 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 11:22:08.701 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 11:22:08.774 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 1186.366ms
+2026-02-17 11:22:08.774 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 1826.1753ms
+2026-02-17 11:22:08.775 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:22:08.775 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:22:08.779 +05:00 [INF] HTTP GET /api/products responded 200 in 1869.8869 ms
+2026-02-17 11:22:08.779 +05:00 [INF] HTTP GET /api/products responded 200 in 1196.4184 ms
+2026-02-17 11:22:08.790 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 1212.4142ms
+2026-02-17 11:22:08.790 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 499 null application/json; charset=utf-8 1886.6779ms
+2026-02-17 11:23:23.686 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 11:23:23.688 +05:00 [INF] CORS policy execution successful.
+2026-02-17 11:23:23.690 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:23:23.691 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 11:23:23.734 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 11:23:23.740 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 11:23:23.741 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.6958ms.
+2026-02-17 11:23:23.742 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 11:23:23.743 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 50.7114ms
+2026-02-17 11:23:23.743 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 11:23:23.744 +05:00 [INF] HTTP GET /api/products responded 200 in 56.0535 ms
+2026-02-17 11:23:23.745 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 58.9201ms
+2026-02-17 11:23:31.460 +05:00 [INF] Application is shutting down...
+2026-02-17 12:06:38.133 +05:00 [INF] Запуск приложения...
+2026-02-17 12:06:38.170 +05:00 [INF] User profile is available. Using 'C:\Users\danii\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-17 12:06:38.209 +05:00 [INF] Now listening on: http://localhost:5121
+2026-02-17 12:06:38.211 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-17 12:06:38.212 +05:00 [INF] Hosting environment: Development
+2026-02-17 12:06:38.212 +05:00 [INF] Content root path: D:\Work\Unity Projects\store_api\API
+2026-02-17 12:06:38.448 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.html - null null
+2026-02-17 12:06:38.528 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.html - 200 null text/html;charset=utf-8 81.1673ms
+2026-02-17 12:06:38.544 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/index.js - null null
+2026-02-17 12:06:38.548 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/index.js - 200 null application/javascript;charset=utf-8 5.1593ms
+2026-02-17 12:06:38.895 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - null null
+2026-02-17 12:06:38.964 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.9019ms
+2026-02-17 12:06:41.238 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:06:41.245 +05:00 [WRN] Failed to determine the https port for redirect.
+2026-02-17 12:06:41.246 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:06:41.261 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:06:41.271 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:06:41.828 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:06:42.138 +05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:06:42.250 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 417.86ms.
+2026-02-17 12:06:42.257 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:06:42.319 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 1044.6034ms
+2026-02-17 12:06:42.320 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:06:42.323 +05:00 [INF] HTTP GET /api/products responded 200 in 1079.7703 ms
+2026-02-17 12:06:42.332 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 1093.7693ms
+2026-02-17 12:06:44.083 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:06:44.086 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:06:44.087 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:06:44.088 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:06:44.120 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:06:44.125 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:06:44.127 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.4923ms.
+2026-02-17 12:06:44.128 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:06:44.128 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 39.8865ms
+2026-02-17 12:06:44.129 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:06:44.129 +05:00 [INF] HTTP GET /api/products responded 200 in 43.9046 ms
+2026-02-17 12:06:44.130 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 47.2867ms
+2026-02-17 12:07:02.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:07:02.973 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:07:02.974 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:07:02.983 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:07:02.985 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:07:02.986 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4933ms.
+2026-02-17 12:07:02.987 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:07:02.988 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 13.593ms
+2026-02-17 12:07:02.989 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:07:02.989 +05:00 [INF] HTTP GET /api/products responded 200 in 17.1606 ms
+2026-02-17 12:07:02.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 20.707ms
+2026-02-17 12:07:15.339 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:15.341 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:15.348 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:15.354 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:15.388 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:15.391 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:15.392 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.0282ms.
+2026-02-17 12:07:15.393 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:15.397 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 47.575ms
+2026-02-17 12:07:15.397 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:15.398 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 56.8515 ms
+2026-02-17 12:07:15.398 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 59.9124ms
+2026-02-17 12:07:37.875 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:37.880 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:37.881 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:37.882 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:37.901 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:37.905 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:37.918 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:37.919 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.9088ms.
+2026-02-17 12:07:37.921 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:37.922 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 23.0567ms
+2026-02-17 12:07:37.924 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:37.925 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 44.9418 ms
+2026-02-17 12:07:37.926 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 51.0285ms
+2026-02-17 12:07:42.191 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:42.193 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:42.195 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:42.195 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:42.200 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:42.203 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:42.207 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:42.207 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1626ms.
+2026-02-17 12:07:42.208 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:42.211 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 13.2589ms
+2026-02-17 12:07:42.212 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:42.212 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 19.3761 ms
+2026-02-17 12:07:42.214 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 22.9151ms
+2026-02-17 12:07:43.469 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:43.471 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:43.471 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:43.472 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:43.474 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:43.476 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:43.478 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:43.479 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.4058ms.
+2026-02-17 12:07:43.481 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:43.483 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 9.5843ms
+2026-02-17 12:07:43.484 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:43.486 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 14.9703 ms
+2026-02-17 12:07:43.488 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 18.4826ms
+2026-02-17 12:07:45.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:45.066 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:45.067 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:45.068 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:45.071 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:45.073 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:45.077 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:45.078 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.182ms.
+2026-02-17 12:07:45.079 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:45.082 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 11.9501ms
+2026-02-17 12:07:45.083 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:45.083 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 16.6754 ms
+2026-02-17 12:07:45.084 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 19.8438ms
+2026-02-17 12:07:48.217 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:48.220 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:48.221 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:48.223 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:48.226 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:48.229 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:48.232 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:48.233 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.5417ms.
+2026-02-17 12:07:48.235 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:48.237 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 11.6196ms
+2026-02-17 12:07:48.238 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:48.239 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 19.1883 ms
+2026-02-17 12:07:48.241 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 23.4114ms
+2026-02-17 12:07:49.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:07:49.956 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:07:49.958 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:49.959 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:07:49.962 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:07:49.964 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:07:49.967 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:07:49.968 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1671ms.
+2026-02-17 12:07:49.970 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:07:49.971 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 10.1081ms
+2026-02-17 12:07:49.973 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:07:49.974 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 17.5275 ms
+2026-02-17 12:07:49.975 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 21.4398ms
+2026-02-17 12:08:40.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:08:40.624 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:08:40.624 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:08:40.626 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:08:40.629 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:08:40.632 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:08:40.635 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:08:40.636 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1234ms.
+2026-02-17 12:08:40.638 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:08:40.640 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 11.7796ms
+2026-02-17 12:08:40.641 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:08:40.642 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 18.6912 ms
+2026-02-17 12:08:40.644 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 22.085ms
+2026-02-17 12:08:44.769 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/categories/1 - null null
+2026-02-17 12:08:44.772 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:08:44.773 +05:00 [INF] Executing endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:08:44.774 +05:00 [INF] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DTOs.CategoryDto]] GetById(Int32) on controller API.Controllers.CategoriesController (API).
+2026-02-17 12:08:44.776 +05:00 [INF] Executing action method API.Controllers.CategoriesController.GetById (API) - Validation state: "Valid"
+2026-02-17 12:08:44.779 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT c."Id", c."Title"
+FROM "Categories" AS c
+WHERE c."Id" = @__p_0
+LIMIT 1
+2026-02-17 12:08:44.781 +05:00 [INF] Category retrieved by : Id=1, Name=Книги
+2026-02-17 12:08:44.781 +05:00 [INF] Executed action method API.Controllers.CategoriesController.GetById (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3096ms.
+2026-02-17 12:08:44.783 +05:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.CategoryDto'.
+2026-02-17 12:08:44.784 +05:00 [INF] Executed action API.Controllers.CategoriesController.GetById (API) in 8.6472ms
+2026-02-17 12:08:44.785 +05:00 [INF] Executed endpoint 'API.Controllers.CategoriesController.GetById (API)'
+2026-02-17 12:08:44.786 +05:00 [INF] HTTP GET /api/categories/1 responded 200 in 14.1584 ms
+2026-02-17 12:08:44.788 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/categories/1 - 200 null application/json; charset=utf-8 18.5519ms
+2026-02-17 12:08:57.651 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:08:57.658 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:08:57.659 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:57.660 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:08:57.662 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:08:57.663 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:08:57.666 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.1863ms.
+2026-02-17 12:08:57.667 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:08:57.668 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 7.1183ms
+2026-02-17 12:08:57.669 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:57.670 +05:00 [INF] HTTP GET /api/products responded 200 in 12.3179 ms
+2026-02-17 12:08:57.671 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 20.811ms
+2026-02-17 12:08:58.808 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:08:58.811 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:08:58.812 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:58.814 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:08:58.816 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:08:58.819 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:08:58.823 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1412ms.
+2026-02-17 12:08:58.824 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:08:58.826 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 10.1996ms
+2026-02-17 12:08:58.827 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:58.827 +05:00 [INF] HTTP GET /api/products responded 200 in 16.0409 ms
+2026-02-17 12:08:58.829 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 20.5337ms
+2026-02-17 12:08:59.718 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:08:59.720 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:08:59.721 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:59.722 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:08:59.725 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:08:59.726 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:08:59.728 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6032ms.
+2026-02-17 12:08:59.730 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:08:59.732 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 7.4232ms
+2026-02-17 12:08:59.733 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:08:59.734 +05:00 [INF] HTTP GET /api/products responded 200 in 13.7768 ms
+2026-02-17 12:08:59.737 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 18.4608ms
+2026-02-17 12:09:00.336 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:09:00.339 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:09:00.340 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:00.342 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:09:00.344 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:09:00.347 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:09:00.350 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5866ms.
+2026-02-17 12:09:00.352 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:09:00.353 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 9.4741ms
+2026-02-17 12:09:00.354 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:00.355 +05:00 [INF] HTTP GET /api/products responded 200 in 16.0872 ms
+2026-02-17 12:09:00.357 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 21.4196ms
+2026-02-17 12:09:00.968 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:09:00.970 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:09:00.971 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:00.972 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:09:00.975 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:09:00.977 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:09:00.979 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.5488ms.
+2026-02-17 12:09:00.981 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:09:00.982 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 8.3982ms
+2026-02-17 12:09:00.984 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:00.985 +05:00 [INF] HTTP GET /api/products responded 200 in 14.3931 ms
+2026-02-17 12:09:00.986 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 18.2504ms
+2026-02-17 12:09:08.921 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:09:08.924 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:09:08.925 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:08.926 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:09:08.929 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:09:08.931 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:09:08.934 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.7355ms.
+2026-02-17 12:09:08.935 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:09:08.937 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 8.8161ms
+2026-02-17 12:09:08.938 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:09:08.939 +05:00 [INF] HTTP GET /api/products responded 200 in 14.8651 ms
+2026-02-17 12:09:08.940 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 19.051ms
+2026-02-17 12:12:02.299 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:12:02.301 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:12:02.303 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:02.303 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:12:02.305 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:12:02.327 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:12:02.329 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.3297ms.
+2026-02-17 12:12:02.331 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:12:02.332 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 27.0751ms
+2026-02-17 12:12:02.333 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:02.337 +05:00 [INF] HTTP GET /api/products responded 200 in 35.3504 ms
+2026-02-17 12:12:02.338 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 38.8237ms
+2026-02-17 12:12:06.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:12:06.516 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:12:06.517 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:06.518 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:12:06.520 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:12:06.522 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:12:06.525 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.0688ms.
+2026-02-17 12:12:06.526 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:12:06.528 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 8.7444ms
+2026-02-17 12:12:06.529 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:06.531 +05:00 [INF] HTTP GET /api/products responded 200 in 14.7466 ms
+2026-02-17 12:12:06.533 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 18.9324ms
+2026-02-17 12:12:15.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5121/api/products - null null
+2026-02-17 12:12:15.642 +05:00 [INF] CORS policy execution successful.
+2026-02-17 12:12:15.643 +05:00 [INF] Executing endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:15.643 +05:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.ProductDto]]] GetAll() on controller API.Controllers.ProductController (API).
+2026-02-17 12:12:15.645 +05:00 [INF] Executing action method API.Controllers.ProductController.GetAll (API) - Validation state: "Valid"
+2026-02-17 12:12:15.646 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CategoryId", p."Name", p."Price", c."Id", c."Title"
+FROM "Products" AS p
+INNER JOIN "Categories" AS c ON p."CategoryId" = c."Id"
+2026-02-17 12:12:15.649 +05:00 [INF] Executed action method API.Controllers.ProductController.GetAll (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.0519ms.
+2026-02-17 12:12:15.650 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-17 12:12:15.652 +05:00 [INF] Executed action API.Controllers.ProductController.GetAll (API) in 7.122ms
+2026-02-17 12:12:15.653 +05:00 [INF] Executed endpoint 'API.Controllers.ProductController.GetAll (API)'
+2026-02-17 12:12:15.654 +05:00 [INF] HTTP GET /api/products responded 200 in 12.0482 ms
+2026-02-17 12:12:15.656 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5121/api/products - 200 null application/json; charset=utf-8 17.6734ms
+2026-02-17 12:13:28.155 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/api/products - application/json 64
+2026-02-17 12:13:28.159 +05:00 [INF] CORS policy execution failed.
+2026-02-17 12:13:28.160 +05:00 [INF] Request origin http://localhost:5121 does not have permission to access the resource.
+2026-02-17 12:13:28.164 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-02-17 12:13:28.169 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-17 12:13:28.170 +05:00 [INF] HTTP POST /api/products responded 401 in 11.4668 ms
+2026-02-17 12:13:28.172 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/api/products - 401 0 null 16.3854ms
+2026-02-17 12:13:49.388 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/api/auth/register - application/json 47
+2026-02-17 12:13:49.390 +05:00 [INF] CORS policy execution failed.
+2026-02-17 12:13:49.391 +05:00 [INF] Request origin http://localhost:5121 does not have permission to access the resource.
+2026-02-17 12:13:49.392 +05:00 [INF] Executing endpoint 'API.Controllers.AuthController.Register (API)'
+2026-02-17 12:13:49.396 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.DTOs.Auth.UserRegisterDto) on controller API.Controllers.AuthController (API).
+2026-02-17 12:13:49.424 +05:00 [INF] Executing action method API.Controllers.AuthController.Register (API) - Validation state: "Valid"
+2026-02-17 12:13:49.435 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2026-02-17 12:13:49.443 +05:00 [ERR] Error registering user: Email=string, Error=Пользователь с таким email уже существует
+2026-02-17 12:13:49.444 +05:00 [INF] Executed action method API.Controllers.AuthController.Register (API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 17.9842ms.
+2026-02-17 12:13:49.444 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-17 12:13:49.447 +05:00 [INF] Executed action API.Controllers.AuthController.Register (API) in 49.0603ms
+2026-02-17 12:13:49.447 +05:00 [INF] Executed endpoint 'API.Controllers.AuthController.Register (API)'
+2026-02-17 12:13:49.448 +05:00 [INF] HTTP POST /api/auth/register responded 400 in 57.5634 ms
+2026-02-17 12:13:49.449 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/api/auth/register - 400 null application/json; charset=utf-8 60.5562ms
+2026-02-17 12:13:50.938 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/api/auth/register - application/json 47
+2026-02-17 12:13:50.941 +05:00 [INF] CORS policy execution failed.
+2026-02-17 12:13:50.942 +05:00 [INF] Request origin http://localhost:5121 does not have permission to access the resource.
+2026-02-17 12:13:50.943 +05:00 [INF] Executing endpoint 'API.Controllers.AuthController.Register (API)'
+2026-02-17 12:13:50.943 +05:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.DTOs.Auth.UserRegisterDto) on controller API.Controllers.AuthController (API).
+2026-02-17 12:13:50.947 +05:00 [INF] Executing action method API.Controllers.AuthController.Register (API) - Validation state: "Valid"
+2026-02-17 12:13:50.948 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2026-02-17 12:13:50.950 +05:00 [ERR] Error registering user: Email=string, Error=Пользователь с таким email уже существует
+2026-02-17 12:13:50.951 +05:00 [INF] Executed action method API.Controllers.AuthController.Register (API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 3.41ms.
+2026-02-17 12:13:50.952 +05:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-17 12:13:50.953 +05:00 [INF] Executed action API.Controllers.AuthController.Register (API) in 8.0233ms
+2026-02-17 12:13:50.954 +05:00 [INF] Executed endpoint 'API.Controllers.AuthController.Register (API)'
+2026-02-17 12:13:50.954 +05:00 [INF] HTTP POST /api/auth/register responded 400 in 13.2930 ms
+2026-02-17 12:13:50.955 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/api/auth/register - 400 null application/json; charset=utf-8 17.4548ms
+2026-02-17 12:13:58.220 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/api/auth/login - application/json 47
+2026-02-17 12:13:58.223 +05:00 [INF] CORS policy execution failed.
+2026-02-17 12:13:58.223 +05:00 [INF] Request origin http://localhost:5121 does not have permission to access the resource.
+2026-02-17 12:13:58.224 +05:00 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-02-17 12:13:58.226 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.Auth.UserLoginDto) on controller API.Controllers.AuthController (API).
+2026-02-17 12:13:58.236 +05:00 [INF] Executing action method API.Controllers.AuthController.Login (API) - Validation state: "Valid"
+2026-02-17 12:13:58.239 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Email", u."PasswordHash", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2026-02-17 12:13:58.309 +05:00 [INF] User logged in: Email=string
+2026-02-17 12:13:58.310 +05:00 [INF] Executed action method API.Controllers.AuthController.Login (API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.3136ms.
+2026-02-17 12:13:58.311 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-17 12:13:58.313 +05:00 [INF] Executed action API.Controllers.AuthController.Login (API) in 86.7671ms
+2026-02-17 12:13:58.315 +05:00 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-02-17 12:13:58.315 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 92.4669 ms
+2026-02-17 12:13:58.338 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/api/auth/login - 200 null application/json; charset=utf-8 118.0311ms
+2026-02-17 12:14:04.655 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5121/api/products - application/json 64
+2026-02-17 12:14:04.658 +05:00 [INF] CORS policy execution failed.
+2026-02-17 12:14:04.659 +05:00 [INF] Request origin http://localhost:5121 does not have permission to access the resource.
+2026-02-17 12:14:04.662 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-02-17 12:14:04.663 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-17 12:14:04.664 +05:00 [INF] HTTP POST /api/products responded 401 in 6.1565 ms
+2026-02-17 12:14:04.665 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5121/api/products - 401 0 null 9.7421ms
+2026-02-17 12:14:24.858 +05:00 [INF] Application is shutting down...

@@ -3,6 +3,7 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCORS();
 builder.Services.AddApplicationLayer();
 builder.Services.AddInfrastructureLayer(builder.Configuration);
 builder.Services.AddApiLayer(builder.Configuration);
@@ -20,6 +21,8 @@ if (app.Environment.IsDevelopment())
 app.UseLog();
 
 app.UseHttpsRedirection();
+
+app.UseCORS();
 
 app.UseAuthentication();
 app.UseAuthorization();
