@@ -65,6 +65,7 @@ packages/
 
 ## Logs
 *.log
+API/logs/
 
 ## Others
 node_modules/
