@@ -11,11 +11,7 @@ public static class ApplicationServiceExtensions
     public static IServiceCollection AddApplicationLayer(this IServiceCollection services)
     {
         // Application Services
-        services.AddScoped<ICategoryService, CategoryService>();
-        services.AddScoped<IProductService, ProductService>();
-        services.AddScoped<ICartService, CartService>();
         services.AddScoped<IAuthService, AuthService>();
-        services.AddScoped<IOrderService, OrderService>();
             
             
         services.AddScoped<IPasswordHasher, PasswordHasher>();
