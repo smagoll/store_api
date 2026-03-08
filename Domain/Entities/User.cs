@@ -11,4 +11,6 @@ public class User
     public string PasswordHash { get; set; }
 
     public UserRole Role { get; set; } = UserRole.User;
+    
+    public ICollection<UserBook> UserBooks { get; set; } = new List<UserBook>();
 }
