@@ -36,7 +36,7 @@ public class JwtServiceTests
         
         var user = new User
         {
-            Id = id,
+            Id = Guid.NewGuid(),
             Email = email,
             Role = role
         };

@@ -5,7 +5,7 @@ namespace Domain.Entities;
 public class Book
 {
     [Key]
-    public int Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
     public string Title { get; set; }
     public string Description { get; set; }
     public string? CoverUrl { get; set; }

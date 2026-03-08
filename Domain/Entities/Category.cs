@@ -5,7 +5,7 @@ namespace Domain.Entities;
 public class Category
 {
     [Key]
-    public int Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
     public string Name { get; set; }
     
     public ICollection<Book> Books { get; set; } = new List<Book>();

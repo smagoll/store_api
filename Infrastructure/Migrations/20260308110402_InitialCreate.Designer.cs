@@ -9,11 +9,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Infrastructure.Data.Migrations
+namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260308090618_AddBooks")]
-    partial class AddBooks
+    [Migration("20260308110402_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,11 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("AuthorBook", b =>
                 {
-                    b.Property<int>("AuthorsId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("AuthorsId")
+                        .HasColumnType("uuid");
 
-                    b.Property<int>("BooksId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("BooksId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("AuthorsId", "BooksId");
 
@@ -42,11 +42,11 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("BookCategory", b =>
                 {
-                    b.Property<int>("BooksId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("BooksId")
+                        .HasColumnType("uuid");
 
-                    b.Property<int>("CategoriesId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("CategoriesId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("BooksId", "CategoriesId");
 
@@ -57,11 +57,9 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.Author", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Biography")
                         .HasColumnType("text");
@@ -77,11 +75,9 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.Book", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("CoverUrl")
                         .HasColumnType("text");
@@ -101,11 +97,9 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -118,11 +112,9 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.User", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -142,17 +134,15 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.UserBook", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<DateTime>("AddedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("BookId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uuid");
 
                     b.Property<int?>("Rating")
                         .HasColumnType("integer");
@@ -160,8 +150,8 @@ namespace Infrastructure.Data.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("integer");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("Id");
 

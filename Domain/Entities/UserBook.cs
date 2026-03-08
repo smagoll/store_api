@@ -6,12 +6,12 @@ namespace Domain.Entities;
 public class UserBook
 {
     [Key]
-    public int Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
     
-    public int UserId { get; set; }
+    public Guid UserId { get; set; }
     public User User { get; set; }
     
-    public int BookId { get; set; }
+    public Guid BookId { get; set; }
     public Book Book { get; set; }
 
     public ReadingStatus Status { get; set; }
