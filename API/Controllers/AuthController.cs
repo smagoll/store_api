@@ -1,6 +1,9 @@
-﻿using Application.DTOs.Auth;
+﻿using Application.CQRS.Auth.Commands;
+using Application.CQRS.Auth.Handlers;
+using Application.DTOs.Auth;
 using Application.Interfaces;
 using Application.Services;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 
@@ -8,21 +11,14 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("api/auth")]
-public class AuthController : ControllerBase
+public class AuthController(IMediator mediator) : ControllerBase
 {
-    private readonly IAuthService _authService;
-
-    public AuthController(IAuthService authService)
-    {
-        _authService = authService;
-    }
-
     [HttpPost("register")]
     public async Task<IActionResult> Register(UserRegisterDto dto)
     {
         try
         {
-            var token = await _authService.RegisterAsync(dto);
+            var token = await mediator.Send(new RegisterUserCommand(dto));
 
             Log.Information($"New user registered: Email={dto.Email}");
 
@@ -40,7 +36,7 @@ public class AuthController : ControllerBase
     {
         try
         {
-            var token = await _authService.LoginAsync(dto);
+            var token = await mediator.Send(new LoginUserCommand(dto));
 
             Log.Information($"User logged in: Email={dto.Email}");
 
