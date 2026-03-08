@@ -13,6 +13,7 @@ public static class InfrastructureServiceExtensions
     {
         // Repositories
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IBookRepository, BookRepository>();
 
         // DbContext
         services.AddDbContext<AppDbContext>(opt =>

@@ -42,6 +42,11 @@ public class Repository<T> : IRepository<T> where T : class
         return await _dbSet.ToListAsync();
     }
 
+    public virtual async Task<List<T>> GetAllByIdsAsync(List<Guid> ids)
+    {
+        return await _dbSet.Where(e => ids.Contains(EF.Property<Guid>(e, "Id"))).ToListAsync();
+    }
+
     public virtual async Task<T> UpdateAsync(T entity)
     {
         _dbSet.Update(entity);

@@ -1,8 +1,5 @@
 ﻿using Application.CQRS.Auth.Commands;
-using Application.CQRS.Auth.Handlers;
 using Application.DTOs.Auth;
-using Application.Interfaces;
-using Application.Services;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
